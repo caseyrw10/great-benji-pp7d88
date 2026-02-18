@@ -86,3 +86,13 @@ button {
 .hidden {
   display: none;
 }
+
+.logo {
+  font-weight: 800;
+  font-size: 2rem;
+  background: linear-gradient(to right, var(--text), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
